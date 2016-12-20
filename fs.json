@@ -3959,7 +3959,7 @@
 		]}
 	]},
 	{ "name":"home", "mode":"40755", "child":[
-		{ "name":"user", "mode":"40755", "uid":1000, "gid":1000, "child":[
+		{ "name":"admin", "mode":"40755", "uid":1000, "gid":1000, "child":[
 			{ "name":".scummvmrc", "mode":"100644", "size":312, "uid":1000, "gid":1000, "src":"home/user/scummvmrc"},
 			{ "name":".config", "mode":"40755", "child":[
 				{ "name":"weston.ini", "mode":"100644", "size":1135, "src":"home/user/config/weston.ini"}
