@@ -3969,7 +3969,9 @@
 			{ "name":".mikmodrc", "mode":"100644", "size":9025, "uid":1000, "gid":1000, "src":"home/user/mikmodrc"}
 		]},
       {
-         "name": "admin", "mode":"40755", "uid":1000, "gid": 1000, "child":[]
+         "name": "admin", "mode":"40755", "uid":1000, "gid": 1000, "child":[
+            {"name": "busybox.tar", "mode": "40755", "uid": 1000, "gid": 100, "src": "home/admin/busybox-1.26.0.tar.bz2", "size":2143958}
+         ]
       }
 	]},
 	{ "name":"lib", "mode":"40755", "child":[
